@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hr portal</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(176, 234, 236);
+        }
+        header , footer{
+            
+            color:black;
+            text-align: center;
+            padding: 2px;
+        }
+        .navitem{
+            display: inline;
+            padding: 15px;
+        }
+        .navitem{
+            text-decoration: none;
+        }
+        .registerform{
+            width: max-content;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;}
+
+                .employeetable{
+                    text-align: center;
+                }
+                table{
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 100%;
+                    border-collapse: 
+                }
+                
+                
+                th,td{
+                    border: 1px solid;
+                    padding: 8px;
+                }
+                .contactus{
+                    text-align: center;
+                }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: xx-large;">welcome to company HR portal</h1>
+        <nav>
+        <ul>
+            <li class="navitem"><a href="employee-rgistration">employee-rgistration</a></li>
+            <li class="navitem"><a href="employee-directory">employee directory</a></li>
+            <li class="navitem"><a href="contact us">contact us </a></li>
+        </ul>
+    </nav>
+    </header>
+    <img src="https://media.licdn.com/dms/image/C4D12AQHattkYxzdxRw/article-cover_image-shrink_600_2000/0/1520136108227?e=2147483647&v=beta&t=tSdJTzmufrXKmbG_Od54x1IUXJoQSszLRxEHf46Wu-M" width="100%" height="441px">
+    <section id="employee-rgistratione" class="registerform">
+   <h2> Employee rgistratione</h2>
+   <p>fill the bellow form to resister as employee</p>
+   <form>
+    <label for="name">name:</label>
+    <input type="text" id="name"><br><br>
+    <label for="email">email id:</label>
+    <input type="email" id="email"><br><br>
+    <label for="password">password:</label>
+    <input type="password" id="password"><br><br>
+    <label for="age">age:</label>
+    <input type="age" id="age"><br><br>
+    <label for="role">select role:</label>
+    <select>
+<option>software eng.</option>
+<option>hr</option>
+<option>product mag.</option>
+    </select><br><br>
+
+   </form>
+   <label for="joiningdate">joiningdate:</label>
+    <input type="date" id="joiningdate"><br><br>
+    <input type="submit">
+    </section><br>
+
+    <section id="employee-directory" class="employeetable">
+        <h2>Employee-directory</h2>
+        <p>list of all resistered employees.</p>
+        <table>
+            <tr>
+                <th>employee id</th>
+                <th>employee name</th>
+                <th>employee role</th>
+            </tr>
+            <tr>
+                <td>2342</td>
+                <td>nena gupta </td>
+                <td>software eng.</td>
+            </tr>
+            <tr>
+                <td>2367</td>
+                <td>neha</td>
+                <td>hr</td>
+            </tr>
+            <tr>
+                <td>2442</td>
+                <td>nikita</td>
+                <td>hr</td>
+            </tr>
+            <tr>
+                <td>5642</td>
+                <td>ayush </td>
+                <td>product manager</td>
+            </tr>
+        </table>
+
+    </section>
+    <section id="contact us" class="contactus">
+        <h3>contact us</h3>
+        <p>you can contact us further information galgotia@2345gmail.com or cotact us at 223234454655
+        <br>also visit to our barnch</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.9787145795067!2d80.93119097450585!3d26.935889259095852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39995751ab44fe3b%3A0x38a1755605a18394!2sBansal%20institute%20of%20engineering%20and%20technology%20lucknow!5e0!3m2!1sen!2sin!4v1704899377607!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    </section>
+    <footer>
+        <p>&copy;2023 company name</p>
+    </footer>
+</body>
+</html>
